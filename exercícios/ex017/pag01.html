@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes en CSS</title>
+    <style>
+        @import url('');
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            /*
+            Medidas Absolutas:
+            (cm, mm, in, px) São as recomendadas, (pt e pc são menos recomendadas).
+            
+            Medidas Relativas:
+            em, ex, rem, vw, vh, %
+            Recomendação da W3C para tamanho de fonte.
+            16px. E 16px = 1em
+            Dica: As medidas que o "font-size" utiliza, são: px e em.
+            
+            "font-weight": significa o peso da fonte
+            pode ter variações de peso como:
+            lighter, normal, bold e bolder e tamanhos de 100 a 900
+            */
+            font-size: 1em;
+        }
+
+        h1{
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight:  bolder;
+            font-size: 3em;
+            font-style: italic
+
+            shorthand = mãozinha
+            (font: italic bolder 3em 'Work Sans, sans-serif';)
+            neste caso, você consegue em uma única linha, personalizar as fontes.
+            */
+            font: italic bolder 3em 'Work Sans, sans-serif';
+        }
+
+        h2{
+            font: bold 3em 'Work Sans, sans-serif';
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptates quasi doloribus ut, nisi excepturi inventore reiciendis necessitatibus, voluptatibus natus at incidunt id temporibus nostrum vel odio? Nemo, sequi ipsam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore quas tempore, excepturi esse modi distinctio numquam consequatur pariatur laboriosam autem? Odio tempore dolores animi temporibus aspernatur sapiente illum corrupti blanditiis.</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur unde modi sunt dolorem ex veritatis maiores voluptas ut, placeat illo? Exercitationem maiores sapiente est assumenda asperiores. A illum repellat adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dicta sapiente eligendi eos possimus accusantium eum dolorum? Nisi veritatis minima aliquam, similique vero ut totam vel, amet incidunt ducimus nemo.</p>
+</body>
+</html>
