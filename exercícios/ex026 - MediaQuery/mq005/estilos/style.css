@@ -7,7 +7,7 @@
 }
 
 body, html {
-    background-color: lightgrey;
+    background-color: lightblue;
 }
 
 header {
@@ -17,11 +17,12 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
+    background-color: lightblue;
 }
 
 i#burguer {
-    background-color: rgb(48, 48, 48);
-    color: white;
+    background-color: snow;
+    color: black;
     display: block;
     text-align: center;
     padding: 10px;
@@ -52,7 +53,7 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: gray;
+    background-color: rgba(173, 216, 230, 0.817);
 }
 
 main {
